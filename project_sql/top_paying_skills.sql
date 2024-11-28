@@ -4,6 +4,7 @@ Answer: What are the top skills based on salary?
 - Focuses on the roles with specified salaries regardless of location.
 - Why? It reveals how 
 */
+
 SELECT
     skills_dim.skills AS skill,
     ROUND(AVG(jpf.salary_year_avg), 0) AS avg_salary
